@@ -1,0 +1,3 @@
+# forward-post-most
+
+Basic [Google Apps Script](https://www.google.com/script/start/) script that loops over my email inbox looking for threads sent by The Washington Post & titled "The Post Most". When it finds a relevant email, it forwards the email to my parents (via a configurable constant), labels the message (also via a configurable constant), and checks if the email has been read, if I've already opened it, it is sent to the trash immediately. I setup this script to run on google apps script once a day between 3 and 4pm and it seems to always have plenty of wiggle room to make sure the email arrives before then.
